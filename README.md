@@ -11,16 +11,16 @@ A LiveSplit-like data pack that provides a timer for speedruns in the sidebar.
 - Create custom splits.
 - Optional [data pack](https://github.com/Ctarron/MineSplit/releases/download/v1.0.0/MineSplit_menu_v1.0.0.zip) that adds the menu to the quick actions dialogs.
 
-### Commands
+## Commands
 
 All of the following commands can be accessed from the menu.
 
-#### Menu
+### Menu
 To access the menu without the optional [data pack](https://github.com/Ctarron/MineSplit/releases/download/v1.0.0/MineSplit_menu_v1.0.0.zip).
 
     /function ctarron.splits:menu
 
-#### Create splits
+### Create splits
 To create new splits.
 There are two avaliable options
 
@@ -32,19 +32,19 @@ To insert it in the desired positon
 
     /function ctarron.splits:splits/insert {name: "SPLIT_NAME", index: (the number of splits to insert after)}
 
-Clear all splits and times
+### Clear all splits and times
 
     /function ctarron.splits:splits/clear
 
-Start run. If there is a run in progress it resets.
+### Start run. 
+If there is a run in progress it resets.
 
     /function ctarron.splits:start
 
-Reset current run
+### Reset current run
 
     /function ctarron.splits:setup
 
-Next split
+### Next split
 
     /function ctarron.splits:splits/next
-
