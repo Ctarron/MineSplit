@@ -48,3 +48,8 @@ If there is a run in progress it resets.
 ### Next split
 
     /function ctarron.splits:splits/next
+
+### Change Banner
+The banner is meant to be a placeholder.
+
+    /scoreboard objectives modify ctarron.splits.split_display displayname "NEW BANNER"
