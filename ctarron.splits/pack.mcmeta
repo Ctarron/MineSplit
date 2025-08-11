@@ -1,0 +1,14 @@
+{
+  "id": "ctarron.splits",
+  "pack": {
+    "description": [
+			{
+				"text": "Speedrun timer and split recording\n"
+			},
+			{
+				"text": "By Ctarron"
+			}
+		],
+    "pack_format": 81
+  }
+}

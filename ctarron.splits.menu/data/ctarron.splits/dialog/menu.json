@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "",
+  "external_title": {
+    "translate": "ctarron.split.dialog.menu.title",
+    "fallback": "MineSplit by Ctarron"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "ctarron.split.dialog.menu.title",
+        "fallback": "MineSplit by Ctarron"
+      },
+      "width": 300
+    }
+  ],
+  "inputs": [],
+  "actions": [
+    {
+      "label": {
+        "translate": "ctarron.split.dialog.create.title",
+        "fallback": "Create split"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ctarron.splits:splits/dialog"
+      }
+    },
+    {
+      "label": {
+        "translate": "ctarron.split.dialog.clear.title",
+        "fallback": "Clear all splits and times"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ctarron.splits:splits/clear"
+      }
+    },
+    {
+      "label": {
+        "translate": "ctarron.split.dialog.start.title",
+        "fallback": "Start run"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ctarron.splits:start"
+      }
+    },
+    {
+      "label": {
+        "translate": "ctarron.split.dialog.next.title",
+        "fallback": "Next split"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ctarron.splits:splits/next"
+      }
+    },
+    {
+      "label": {
+        "translate": "ctarron.split.dialog.reset.title",
+        "fallback": "Reset current run"
+      },
+      "action": {
+        "type": "run_command",
+        "command": "function ctarron.splits:setup"
+      }
+    }
+  ]
+}

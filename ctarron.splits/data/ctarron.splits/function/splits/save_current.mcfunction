@@ -1,0 +1,1 @@
+$execute store result storage ctarron:splits times[$(index)].current int 1 run scoreboard players get total_time ctarron.splits.current

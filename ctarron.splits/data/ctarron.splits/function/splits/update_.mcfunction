@@ -1,0 +1,2 @@
+$scoreboard players display numberformat $(split) ctarron.splits.split_display fixed ["",$(pb), {"color":white,"text":"  "}, $(h),$(m),$(s)]
+$scoreboard players display name $(split) ctarron.splits.split_display "$(name)"

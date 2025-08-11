@@ -1,0 +1,14 @@
+{
+  "id": "ctarron.splits.menu",
+  "pack": {
+    "description": [
+			{
+				"text": "MineSplit menu in quick actions dialogs\n"
+			},
+			{
+				"text": "By Ctarron"
+			}
+		],
+    "pack_format": 81
+  }
+}

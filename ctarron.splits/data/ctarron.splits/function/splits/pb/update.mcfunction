@@ -1,0 +1,1 @@
+$scoreboard players display numberformat PB ctarron.splits.split_display fixed [{"color":white, bold:true,"text":"",},$(h),$(m),$(s),{"color":white, bold:false,"text":".$(t)"}]
