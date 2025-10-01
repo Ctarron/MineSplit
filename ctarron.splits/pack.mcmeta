@@ -9,6 +9,7 @@
 				"text": "By Ctarron"
 			}
 		],
-    "pack_format": 81
+		"min_format": [81,0],
+		"max_format": [88,0]
   }
 }
