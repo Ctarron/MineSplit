@@ -2,6 +2,8 @@
 
 A LiveSplit-like data pack that provides a timer for speedruns in the sidebar.
 
+[![Badge](https://img.shields.io/modrinth/dt/minesplit?logo=modrinth&color=green&link=https%3A%2F%2Fmodrinth.com%2Fdatapack%2Fminesplit)](https://modrinth.com/datapack/minesplit)
+
 ## Features
 - Timer.
 - PB.
@@ -53,3 +55,4 @@ If there is a run in progress it resets.
 The banner is meant to be a placeholder.
 
     /scoreboard objectives modify ctarron.splits.split_display displayname "NEW BANNER"
+
