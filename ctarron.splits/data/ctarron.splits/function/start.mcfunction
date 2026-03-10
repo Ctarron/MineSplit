@@ -2,6 +2,7 @@ execute unless data storage ctarron:splits splits[0] run return run tellraw @a {
 scoreboard players set total_time ctarron.splits.current 0
 scoreboard players set split ctarron.splits.current 0
 scoreboard players set total_time ctarron.splits.aux_timer 0
+stopwatch restart ctarron.splits:time
 function ctarron.splits:ticks_to_time
 function ctarron.splits:update_time with storage ctarron:splits aux_time
 function ctarron.splits:splits/setup_sidebar

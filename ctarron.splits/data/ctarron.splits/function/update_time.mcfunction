@@ -1,1 +1,1 @@
-$scoreboard players display numberformat time ctarron.splits.split_display fixed [{"color":green, bold:true,"text":"",},$(h),$(m),$(s),{"color":green, bold:false,"text":".$(t)"}]
+$scoreboard players display numberformat time ctarron.splits.split_display fixed [{"color":green, bold:true,"text":""},$(h),$(m),$(s),{"color":green, bold:false,"text":".",extra: $(ms)}]

@@ -1,3 +1,6 @@
+$data modify storage ctarron:splits aux_time.ms set value ["$(ms)"]
+execute if score ms ctarron.splits.aux_timer matches 0..9 run data modify storage ctarron:splits aux_time.ms prepend value "0"
+execute if score ms ctarron.splits.aux_timer matches 0..99 run data modify storage ctarron:splits aux_time.ms prepend value "0"
 $data modify storage ctarron:splits aux_time.s set value ["$(s)"]
 execute if score s ctarron.splits.aux_timer matches 0..9 run data modify storage ctarron:splits aux_time.s prepend value "0"
 $data modify storage ctarron:splits aux_time.m set value ["$(m):"]

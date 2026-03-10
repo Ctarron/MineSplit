@@ -1,5 +1,4 @@
 {
-  "id": "ctarron.splits.menu",
   "pack": {
     "description": [
 			{
@@ -10,6 +9,6 @@
 			}
 		],
 		"min_format": [81,0],
-		"max_format": [88,0]
+		"max_format": [94,1]
   }
 }
